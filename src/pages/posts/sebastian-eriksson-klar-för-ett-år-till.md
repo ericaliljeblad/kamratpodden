@@ -18,3 +18,5 @@ Tänk att han tog sig tillbaka dit. Till sin dröm. Mot alla tänkbara odds och 
 Det Andrénska hemmet firar helgdag för det är en stor dag. Det är stort att en av våra allra största förlängt sitt avtal med ett år.
 
 ”Vilken tur att vi lever samtidigt, du och jag.”
+
+![](/assets/blog/317575099_149334201183788_2298528759472121366_n.jpeg "Foto: Emelie Hübner")
