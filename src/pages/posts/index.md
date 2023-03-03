@@ -1,5 +1,5 @@
 ---
-title: Using Netlify CMS with an Astro site
+title: Using Netlify CMS with an Astro site TEST
 publishDate: 16 May 2022
 author: Chris Swithinbank
 authorURL: https://twitter.com/swithinbank
