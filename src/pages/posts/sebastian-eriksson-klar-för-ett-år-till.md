@@ -1,6 +1,6 @@
 ---
 title: "Sebastian Eriksson klar för ett år till "
-publishDate: 03 Mar 2023
+publishDate: 28 Nov 2022
 author: Daniel Andrén
 description: Beskrivning lorem ipsum
 layout: ../../layouts/BlogPost.astro
