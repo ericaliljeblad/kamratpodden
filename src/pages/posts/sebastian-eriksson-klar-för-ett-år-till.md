@@ -5,7 +5,7 @@ author: Daniel Andrén
 description: Officiellt. Done deal. Påskrivet och klart. Sebastian Eriksson är
   klar för ett år till med IFK Göteborg och med tanke på hur landet ligger kunde
   ingenting vara mer rätt än just det. Just nu.
-previewImage: /assets/blog/2-1-.jpeg
+previewImage: /assets/blog/307115889_502013221932814_1595457616652334746_n-1-.jpeg
 intro: Officiellt. Done deal. Påskrivet och klart. Sebastian Eriksson är klar
   för ett år till med IFK Göteborg och med tanke på hur landet ligger kunde
   ingenting vara [](<>)mer rätt än just det. Just nu.
