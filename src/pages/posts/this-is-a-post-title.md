@@ -7,10 +7,14 @@ description: Vad är det som driver en världsstjärna att fortsätta utvecklas,
   sina prestationer vill gapa på någon som inte hör, få uppmärksamhet av någon
   som sällan var hemma under uppväxten. Eller är det så enkelt som att man…vill
   göra mål?
+previewImage: /assets/blog/cropped-cropped-19_bebben.jpeg
+intro: Vad är det som driver en världsstjärna att fortsätta utvecklas, att vilja
+  bli bättre, att sätta upp nya mål? Kanske handlar det om att man genom sina
+  prestationer vill gapa på någon som inte hör, få uppmärksamhet av någon som
+  sällan var hemma under uppväxten. Eller är det så enkelt som att man…vill göra
+  mål?
 layout: ../../layouts/BlogPost.astro
 ---
-Vad är det som driver en världsstjärna att fortsätta utvecklas, att vilja bli bättre, att sätta upp nya mål? Kanske handlar det om att man genom sina prestationer vill gapa på någon som inte hör, få uppmärksamhet av någon som sällan var hemma under uppväxten. Eller är det så enkelt som att man…vill göra mål?
-
 – Jag kommer inte ihåg det här riktigt eftersom mina bröder blev lite som pappor för mig. De var tolv och 14 år äldre än jag så att jag hade ju dem lite som förebilder eftersom min pappa sällan var hemma.
 
 Det tar någon sekund, sedan fortsätter han:
@@ -32,6 +36,8 @@ Det tar någon sekund, sedan fortsätter han:
 – Om jag får ta ett exempel: Jag har ett barnbarn som heter Vincent. När vi spelar här på gräsmattan, och det har vi gjort i två år. Vi började redan när han var fem och vi hade alltid varsitt mål och han lärde sig direkt att när han tappar bollen, hans första instinkt var att skydda målet när han inte hade bollen. Det satt i ryggmärgen på honom. Sen var han här förra veckan och hade en kompis med sig så jag mötte dem och kompisen hade inte det här i ryggmärgen och då gjorde ju jag mål när inte kompisen hade det för att han skulle lära sig konsekvenserna. Du måste skydda målet först. Sen kan du försöka ta den och göra mål. Det tror jag är viktigt för ungdomar att lära sig, att förstå spelets idé. Annars blir det att man tror att fotboll handlar om att springa och passa till varandra.
 
 En fråga som jag ofta har funderat på är när de som når allra längst själva förstår att de har något som andra inte har. Det kan handla om instinkter, att man tränat upp en riktigt god teknik, eller att man är väldigt snabb i kombination med att man förstår när man ska springa.  
+
+![](/assets/blog/cropped-cropped-19_bebben.jpeg)
 
 **När insåg du att du var bra på att spela fotboll?**
 
