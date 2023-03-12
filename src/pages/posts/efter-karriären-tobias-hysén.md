@@ -8,9 +8,7 @@ description: "Vad gör man efter ett liv i strålkastarnas varma sken? Var får 
   Tobias Hysén så fortsätter man med det man är bäst på: man jobbar med fotboll.
   "
 previewImage: /assets/blog/tobben-ny-1.png
-intro: Nu är det 90+ tillägg för att vi ska vinna den här matchen och där var
-  det. Där tog jag ut det sista jag kunde av kroppen på den nivån för sen efter
-  det så var det bara att inse att det här funkar inte längre.
+intro: ""
 layout: ../../layouts/BlogPost.astro
 ---
 ***Nu är det 90+ tillägg för att vi ska vinna den här matchen och där var det. Där tog jag ut det sista jag kunde av kroppen på den nivån för sen efter det så var det bara att inse att det här funkar inte längre.***
