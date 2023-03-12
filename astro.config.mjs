@@ -37,7 +37,7 @@ export default defineConfig({
               { name: 'authorURL', widget: 'string', label: 'Author URL', required: false },
               { name: 'description', widget: 'text', label: 'Description', required: true },
               { name: 'previewImage', widget: 'image', label: 'Preview image', required: true },
-              { name: 'intro', widget: 'text', label: 'Intro', required: true },
+              { name: 'intro', widget: 'text', label: 'Intro', required: false },
               { name: 'body', widget: 'markdown', label: 'Post Body' },
               {
                 name: 'layout',
