@@ -2,7 +2,9 @@
 title: "Sebastian Eriksson klar för ett år till "
 publishDate: 28 Nov 2022
 author: Daniel Andrén
-description: Beskrivning lorem ipsum
+description: Officiellt. Done deal. Påskrivet och klart. Sebastian Eriksson är
+  klar för ett år till med IFK Göteborg och med tanke på hur landet ligger kunde
+  ingenting vara [](<>)mer rätt än just det. Just nu.
 layout: ../../layouts/BlogPost.astro
 ---
 Officiellt. Done deal. Påskrivet och klart. Sebastian Eriksson är klar för ett år till med IFK Göteborg och med tanke på hur landet ligger kunde ingenting vara [](<>)mer rätt än just det. Just nu.
