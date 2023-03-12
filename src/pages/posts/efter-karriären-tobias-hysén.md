@@ -15,7 +15,7 @@ Vad gör man efter ett liv i strålkastarnas varma sken? Var får man sina kicka
 
 Jag var nyfiken på varför han är kvar i en värld han väl någonstans borde vara rätt mätt på, och när han lämnade in uppsägningsblanketten och slutade som anfallstränare i IFK Göteborg trodde i alla fall jag att det var dags att släppa fotbollen. Men han är kvar där än, på olika sätt. För att sätta saker i sin kontext börjar vi från början.
 
-### **Innan Blåvitt**
+### Innan Blåvitt
 
 Tobias Hysén är ju som bekant son till fotbollslegendaren Glenn Hysén. Att växa upp som Glenns son var på både gott och ont, dels var Glenn borta mycket på grund av sitt jobb som fotbollsspelare och efter föräldrarnas skilsmässa bodde Tobias och Glenn under långa stunder i olika länder, men Tobias fick också tidigt erfara vad det innebär att vara fotbollsspelare, så när han skrev på sitt första kontrakt med BK Häcken hade han kanske en större förståelse för vad det innebar att vara fotbollsspelare än vad gemene man har. 
 
@@ -27,13 +27,9 @@ Att han skulle bli fotbollsspelare på heltid många år framöver förstod han 
 
 – *När Torbjörn tog över U21-landslaget kom jag med, vilket nånstans är man med i U21 så tänker man väl ändå, ok, då finns det väl en ganska bra chans ändå att det blir nånting liksom. Sen åkte vi ner i Superettan med Häcken och det gick väldigt, väldigt bra. Vi hade Jörgen Lennartsson och Micke Källström. Jag blev bofast i u21. Lite som i A-landslaget. Satt på bänken, hoppade in. Men fick ändå en avgörande roll när jag gjorde mål mot Lettland i avgörande matchen i kvalet och sen även mot Spanien i Play Off -03 på bortaplan. Och där nånstans, de här två målen är ju verkligen… de öppnade upp rätt mycket. Efter några vändor i Norge slutade det med att jag hamnade i Djurgården. Med facit i hand blev det ju rätt att gå till Djurgården.*
 
-
-
 ![Tobias Hysén](/assets/blog/tobben-ny-1.png)
 
-
-
-### **Blåvitt och slutet av karriären**
+### Blåvitt och slutet av karriären
 
 Efter spel i Djurgården och Sunderland vände Hysén slutligen hem till Göteborg och föreningen han drömt om att få representera, IFK Göteborg. En förening han skulle förbli trogen trots intresse från Skandinaviens största klubb. FC Köpenhamn ville verkligen ha Hysén, men kärleken till Blåvitt och oviljan att byta ut matcher mot AIK och Malmö mot Randers och Odense vägde över och Tobbe blev kvar i Blåvitt den gången.
 
@@ -104,8 +100,6 @@ Kroppen började ta stryk, fysiken sviktade och träningspassen blev färre. Fr�
 – *Ingen kommentar.*
 
 ![Tobias Hysén, IFK Göteborg](/assets/blog/tobias_hysén_in_ifk_göteborg.jpeg)
-
-
 
 ### Efter karriären
 
