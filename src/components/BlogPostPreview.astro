@@ -5,14 +5,18 @@ export interface Props {
 
 const { post } = Astro.props;
 ---
-
 <article class="post-preview">
-	<header>
-		<p class="publish-date">{post.frontmatter.publishDate}</p>
-		<a href={post.url}><h1 class="title">{post.frontmatter.title}</h1></a>
-	</header>
-	<p>{post.frontmatter.description}</p>
-	<a href={post.url}>Read more</a>
+	<a href={post.url}>
+		<img src="/assets/blog/317575099_149334201183788_2298528759472121366_n.jpeg" />
+		<div class="text">
+			<header>
+				<p class="publish-date">{post.frontmatter.publishDate}</p>
+				<h1 class="title">{post.frontmatter.title}</h1>
+			</header>
+			<p>{post.frontmatter.description}</p>
+			<!-- <a href={post.url}>Läs hela inlägget</a> -->
+		</div>
+	</a>
 </article>
 
 <style>
@@ -21,9 +25,42 @@ const { post } = Astro.props;
 	}
 
 	.post-preview {
-		padding-bottom: 2rem;
+		background: white;
+		padding: 1rem;
 		margin-bottom: 2rem;
-		border-bottom: 4px solid var(--theme-divider);
+	}
+
+	.post-preview:first-child {
+		width: 100%;
+		gap: 20px;
+		grid-column: 1 / -1;
+	}
+
+	.post-preview:first-child a {
+		display: flex;
+		align-items: flex-start;
+	}
+
+	.post-preview:first-child img {
+		aspect-ratio: 1.4;
+	}
+
+	.post-preview:first-child .title {
+		font-size: 2rem;
+	}
+
+	.post-preview img {
+		aspect-ratio: 1.9;
+    width: 100%;
+    object-fit: cover;
+	}
+
+	.post-preview:first-child img {
+		width: calc(50% - 10px);
+	}
+
+	.text {
+
 	}
 
 	header {
@@ -43,12 +80,12 @@ const { post } = Astro.props;
 
 	.publish-date,
 	.author {
-		font-size: 1.25rem;
+		font-size: 0.9rem;
 		color: var(--theme-text-lighter);
 	}
 
 	.title {
-		font-size: 2.25rem;
+		font-size: 1.5rem;
 		font-weight: 700;
 		color: var(--theme-text);
 	}

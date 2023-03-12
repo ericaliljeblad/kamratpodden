@@ -1,0 +1,88 @@
+---
+
+import BaseHead from '../components/BaseHead.astro';
+import BlogHeader from '../components/BlogHeader.astro';
+import { SITE } from '../config';
+
+let { title } = SITE;
+let description = 'The perfect starter for your perfect blog.';
+let permalink = 'https://example.com/';
+
+---
+
+<html lang="en">
+	<head>
+		<BaseHead {title} {description} {permalink} />
+
+		<style>
+
+			/* .content {
+				margin-top: 4rem;
+				margin-bottom: 8rem;
+			}
+
+			.content :global(main > * + *) {
+				margin-top: 1rem;
+			} */
+
+			/* .intro {
+				padding-bottom: 4rem;
+				margin-bottom: 2rem;
+				border-bottom: 4px solid var(--theme-divider);
+			}
+
+			.intro > * {
+				margin: 0;
+			} */
+
+			/* .latest {
+				font-size: 2.5rem;
+				font-weight: 700;
+			} */
+
+			footer {
+        position: relative;
+        background: rgb(240, 240, 240);
+        /* background: rgba(var(--color-blue-rgb), 0.1); */
+				padding: 100px 0;
+			}
+
+      footer::before {
+        content: '';
+        position: absolute;
+        display: block;
+        /* background: rgba(var(--color-blue-rgb), 0.1); */
+        background: rgb(240, 240, 240);
+        /* background: linear-gradient(rgba(var(--color-blue-rgb), 0.1), white); */
+        height: 100%;
+        width: 150vw;
+        left: -25vw;
+        top: -50%;
+        transform: rotate(-7deg);
+        z-index: -1;
+      }
+
+			.footer-content {
+				display: flex;
+				flex-direction: column;
+			}
+		</style>
+	</head>
+
+	<body>
+		<BlogHeader />
+		<div class="wrapper">
+			<main class="content">
+				<slot />
+			</main>
+		</div>
+		<footer>
+			<div class="wrapper footer-content">
+				<a href="#">Podden</a>
+				<a href="#">Arkiv</a>
+				<a href="#">Om oss</a>
+				<!-- <a href="/admin">Admin Dashboard 🔐</a> -->
+			</div>
+		</footer>
+	</body>
+</html>

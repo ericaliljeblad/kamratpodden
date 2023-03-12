@@ -1,8 +1,40 @@
+/* @font-face {
+  font-family: 'DMSans';
+  src: url('/fonts/DMSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('/fonts/DMSans-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('/fonts/DMSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('/fonts/DMSans-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+} */
+
 :root {
 	--font-fallback: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif,
 		Apple Color Emoji, Segoe UI Emoji;
-	--font-body: 'IBM Plex Sans', var(--font-fallback);
-	--font-mono: 'IBM Plex Mono', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console',
+	--font-body: 'DMSans', var(--font-fallback);
+	--font-mono: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console',
 		'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono',
 		'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
 
@@ -21,7 +53,7 @@
 	--color-gray-900: #111827;
 
 	--color-blue: #3894ff;
-	--color-blue-rgb: 56, 148, 255;
+	--color-blue-rgb: 45, 74, 148;
 	--color-green: #17c083;
 	--color-green-rgb: 23, 192, 131;
 	--color-orange: #ff5d01;
@@ -54,6 +86,14 @@
 body {
 	background: var(--theme-bg);
 	color: var(--theme-text);
+	overflow-x: hidden;
+	/* background: repeating-linear-gradient(
+		90deg,
+		white,
+		white 100px,
+		rgba(var(--color-blue-rgb), 0.05) 100px,
+		rgba(var(--color-blue-rgb), 0.05) 200px
+	); */
 }
 
 :root.theme-dark {
@@ -101,7 +141,7 @@ body {
 .wrapper {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 65em;
+	max-width: 1280px;
 	padding-left: 2rem;
 	padding-right: 2rem;
 	width: 100%;
@@ -148,7 +188,7 @@ h5 {
 }
 
 p {
-	color: var(--theme-text-light);
+	color: var(--theme-text);
 }
 
 small,
