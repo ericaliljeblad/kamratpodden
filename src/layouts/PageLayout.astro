@@ -44,11 +44,17 @@ let permalink = 'https://example.com/';
         position: relative;
         background: rgb(240, 240, 240);
         /* background: rgba(var(--color-blue-rgb), 0.1); */
-				padding: 100px 0;
+				padding: 60px 0;
 			}
 
+      @media (min-width: 37.75em) {
+        footer {
+          padding: 100px 0;
+        }
+      }
+
       footer::before {
-        content: '';
+        /* content: ''; */
         position: absolute;
         display: block;
         /* background: rgba(var(--color-blue-rgb), 0.1); */
@@ -66,6 +72,16 @@ let permalink = 'https://example.com/';
 				display: flex;
 				flex-direction: column;
 			}
+
+      .footer-content p {
+        font-size: 14px;
+        max-width: 600px;
+      }
+
+      .footer-content p:first-of-type {
+        margin-bottom: 0.5rem;
+      }
+
 		</style>
 	</head>
 
@@ -78,10 +94,13 @@ let permalink = 'https://example.com/';
 		</div>
 		<footer>
 			<div class="wrapper footer-content">
-				<a href="#">Podden</a>
+				<!-- <a href="#">Podden</a>
 				<a href="#">Arkiv</a>
-				<a href="#">Om oss</a>
+				<a href="#">Om oss</a> -->
 				<!-- <a href="/admin">Admin Dashboard 🔐</a> -->
+        <p><strong>Kamratpodden</strong> är en podcast om vår älskade Allsvenskan i allmänhet och vårt älskade IFK Göteborg i synnerhet. Grundad av Antonijo Matanovic, Christian Olsson och Daniel Andrén.</p>
+
+        <p>Kontakt: <a href="mailto:kamratpodden@gmail.com">kamratpodden@gmail.com</a></p>
 			</div>
 		</footer>
 	</body>

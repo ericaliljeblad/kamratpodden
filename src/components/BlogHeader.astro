@@ -2,7 +2,7 @@
 import { SITE } from '../config';
 ---
 <header class="wrapper blog-header">
-	<a href="/">
+	<a href="/" class="logo-link">
 		<img class="logo" src="/assets/kamratpodden.webp" alt="">
 	</a>
 	<!-- <div class="label">Välkommen till</div>
@@ -26,7 +26,7 @@ import { SITE } from '../config';
 	}
 
 	header::after {
-		content: '';
+		/* content: ''; */
 		position: absolute;
 		display: block;
 		/* background: rgba(var(--color-blue-rgb), 0.1); */
@@ -38,6 +38,11 @@ import { SITE } from '../config';
 		top: -50%;
 		transform: rotate(-7deg);
 		z-index: -1;
+	}
+
+	.logo-link:hover, .logo-link:focus {
+		border: none;
+		outline: none;
 	}
 
 	.logo {

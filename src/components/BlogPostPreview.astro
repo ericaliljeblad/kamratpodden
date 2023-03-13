@@ -4,13 +4,17 @@ export interface Props {
 }
 
 const { post } = Astro.props;
+
 ---
 <article class="post-preview">
 	<a href={post.url}>
-		<img src="/assets/blog/317575099_149334201183788_2298528759472121366_n.jpeg" />
+		<!-- <img src="/assets/blog/317575099_149334201183788_2298528759472121366_n.jpeg" /> -->
+		<div class="image-wrapper">
+			<img src={post.frontmatter.previewImage} />
+		</div>
 		<div class="text">
-			<header>
-				<p class="publish-date">{post.frontmatter.publishDate}</p>
+			<header class="preview-header">
+				<p class="publish-date">{post.frontmatter.publishDate}, {post.frontmatter.author}</p>
 				<h1 class="title">{post.frontmatter.title}</h1>
 			</header>
 			<p>{post.frontmatter.description}</p>
@@ -20,56 +24,87 @@ const { post } = Astro.props;
 </article>
 
 <style>
-	.content :global(main > * + *) {
-		margin-top: 1rem;
-	}
 
 	.post-preview {
 		background: white;
-		padding: 1rem;
-		margin-bottom: 2rem;
+		margin-bottom: 3rem;
 	}
 
-	.post-preview:first-child {
-		width: 100%;
-		grid-column: 1 / -1;
+	@media (min-width: 37.75em) {
+		.post-preview {
+			margin-bottom: 2rem;
+			padding: 1rem;
+		}
+
+		.post-preview:first-child {
+			width: 100%;
+			grid-column: 1 / -1;
+		}
+
+		.post-preview:first-child a {
+			display: flex;
+			align-items: flex-start;
+			gap: 20px;
+		}
+
+		.post-preview:first-child .image-wrapper {
+			aspect-ratio: 1.4;
+		}
+
+		.post-preview:first-child .title {
+			font-size: 2rem;
+		}
+
+		.post-preview:first-child .image-wrapper {
+			width: calc(50% - 10px - 1rem);
+		}
 	}
 
-	.post-preview:first-child a {
-		display: flex;
-		align-items: flex-start;
-		gap: 20px;
+	.post-preview a {
+		opacity: 0.8;
+		transition: opacity 0.3s ease;
 	}
 
-	.post-preview:first-child img {
-		aspect-ratio: 1.4;
+	.post-preview a:hover {
+		text-decoration: none;
+		opacity: 1;
 	}
 
-	.post-preview:first-child .title {
-		font-size: 2rem;
+	.post-preview a:focus {
+		text-decoration: none;
+		outline: 5px solid rgb(240, 240, 240);
+	}
+
+	.post-preview a:hover img {
+		transform: scale(1.025);
+	}
+
+	.post-preview .image-wrapper {
+		flex-shrink: 0;
+    width: 100%;
+		overflow: hidden;
+		aspect-ratio: 1.9;
+		background: rgb(240, 240, 240);
 	}
 
 	.post-preview img {
-		aspect-ratio: 1.9;
-    width: 100%;
     object-fit: cover;
-	}
-
-	.post-preview:first-child img {
-		width: calc(50% - 10px);
+		transition: transform 0.4s ease;
+		min-width: 100%;
+    min-height: 100%;
 	}
 
 	.text {
 
 	}
 
-	header {
-		align-items: flex-start;
+	.preview-header {
+		/* align-items: flex-start;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		padding-bottom: 2rem;
-		text-align: left;
+		justify-content: center; */
+		padding: 1rem 0;
+		/* text-align: left; */
 	}
 
 	.title,

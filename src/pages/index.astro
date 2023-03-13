@@ -18,10 +18,12 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
 // https://docs.astro.build/core-concepts/astro-components/
 ---
 <style>
-	.blog-preview-list {
-		display: grid;
-		gap: 20px;
-		grid-template-columns: repeat(2, 50%);
+	@media (min-width: 37.75em) {
+		.blog-preview-list {
+			display: grid;
+			gap: 20px;
+			grid-template-columns: repeat(2, 50%);
+		}
 	}
 </style>
 
@@ -35,3 +37,4 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
 		{allPosts.map((p) => <BlogPostPreview post={p} />)}
 	</section>
 </PageLayout>
+

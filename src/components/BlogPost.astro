@@ -6,18 +6,19 @@ export interface Props {
 	author: string;
 	authorURL: string;
 	publishDate: string;
-	heroImage: string;
+	previewImage: string;
 	alt: string;
 }
 
-const { title, author, authorURL, publishDate, heroImage, alt } = Astro.props as Props;
+const { title, author, authorURL, publishDate, alt, previewImage } = Astro.props as Props;
+
 ---
 
 <div class="layout">
 	<article class="content">
 		<div>
 			<header>
-				{heroImage && <img width="720" height="420" class="hero-image" loading="lazy" src={heroImage} alt={alt} />}
+				<!-- {heroImage && <img width="720" height="420" class="hero-image" loading="lazy" src={heroImage} alt={alt} />} -->
 				<p class="publish-date">{publishDate}</p>
 				<h1 class="title">{title}</h1>
 				<Author name={author} href={authorURL} />
@@ -52,7 +53,7 @@ const { title, author, authorURL, publishDate, heroImage, alt } = Astro.props as
 		margin: 0 auto 8rem;
 	}
 
-	.content :global(main > * + *) {
+	.content :global(main > p + p) {
 		margin-top: 1rem;
 	}
 
@@ -87,3 +88,6 @@ const { title, author, authorURL, publishDate, heroImage, alt } = Astro.props as
 		font-weight: 700;
 	}
 </style>
+
+<script>
+</script>
