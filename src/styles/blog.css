@@ -52,7 +52,8 @@
 	--color-gray-800: #1f2937;
 	--color-gray-900: #111827;
 
-	--color-blue: #3894ff;
+	--color-blue: #1D428A;
+	--color-blue-light: #3894ff;
 	--color-blue-rgb: 45, 74, 148;
 	--color-green: #17c083;
 	--color-green-rgb: 23, 192, 131;
@@ -71,8 +72,8 @@
 	--theme-accent: var(--color-orange);
 	--theme-accent-rgb: var(--color-orange-rgb);
 	--theme-accent-opacity: 0.1;
-	--theme-divider: var(--color-gray-100);
-	--theme-text: var(--color-gray-800);
+	--theme-divider: var(--color-gray-200);
+	--theme-text: var(--color-gray-900);
 	--theme-text-light: var(--color-gray-600);
 	--theme-text-lighter: var(--color-gray-400);
 	--theme-bg: var(--color-white);

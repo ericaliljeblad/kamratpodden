@@ -5,8 +5,12 @@ import { SITE } from '../config';
 	<a href="/" class="logo-link">
 		<img class="logo" src="/assets/kamratpodden.webp" alt="">
 	</a>
-	<!-- <div class="label">Välkommen till</div>
-	<h1>Kamratpodden</h1> -->
+	<div>
+
+		<span class="label">Välkommen till</span>
+		<h1>Kamratpodden</h1>
+		<p></p>
+	</div>
 </header>
 
 <style>
@@ -15,18 +19,17 @@ import { SITE } from '../config';
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		gap: 15px;
 		/* justify-content: space-between; */
 		width: 100%;
-		padding: 0 0 50px;
+		padding: 50px 0 100px;
+		overflow: hidden;
+		text-align: center;
 		/* height: 50vh; */
 	}
 
-	header.small h1 {
-		opacity: 1;
-	}
-
 	header::after {
-		/* content: ''; */
+		content: '';
 		position: absolute;
 		display: block;
 		/* background: rgba(var(--color-blue-rgb), 0.1); */
@@ -46,34 +49,47 @@ import { SITE } from '../config';
 	}
 
 	.logo {
-		width: 400px;
+		width: 250px;
 		object-fit: contain;
-		margin-bottom: 40px;
 	}
 
 	.label {
 		text-transform: uppercase;
-		color: var(--color-blue);
-		font-size: 14px;
+		color: #888;
+		/* var(--color-blue); */
+		font-size: 13px;
 		letter-spacing: 1px;
 		font-weight: bold;
 	}
 
 	h1 {
-		margin: 0 0 15px;
-		font-size: 50px;
+		margin: 0;
+		font-size: 35px;
 		line-height: 1;
-		/* opacity: 0;
-		transition: opacity .7s ease; */
-		/* max-width: 500px; */
-		/* text-align: right; */
+		color: var(--color-blue);
 	}
 
-	/* @media (max-width: 32em) {
-		.header-subitem {
-			display: none;
+	@media (min-width: 37.75em) {
+		header {
+			flex-direction: row;
+			justify-content: center;
+			gap: 80px;
+			text-align: left;
 		}
-	} */
+
+		.logo {
+			width: 350px;
+		}
+
+		.label {
+			font-size: 15px;
+		}
+
+		h1 {
+			font-size: 80px;
+		}
+	}
+
 </style>
 
 <script>
@@ -86,17 +102,17 @@ import { SITE } from '../config';
   const add_class_on_scroll = () => header.classList.add("small")
   const remove_class_on_scroll = () => header.classList.remove("small")
 
-  window.addEventListener('scroll', () => {
-    scrollpos = window.scrollY
+  // window.addEventListener('scroll', () => {
+  //   scrollpos = window.scrollY
 
-    if (scrollpos > start_position && scrollpos < end_position) {
-			logo.style.transform = `scale(${1 - scrollpos * 0.001})`;
-		}
+  //   if (scrollpos > start_position && scrollpos < end_position) {
+	// 		logo.style.transform = `scale(${1 - scrollpos * 0.001})`;
+	// 	}
 
-		// if (scrollpos > end_position) {
-		// 	add_class_on_scroll()
-		// } else {
-		// 	remove_class_on_scroll()
-		// }
-  })
+	// 	// if (scrollpos > end_position) {
+	// 	// 	add_class_on_scroll()
+	// 	// } else {
+	// 	// 	remove_class_on_scroll()
+	// 	// }
+  // })
 </script>

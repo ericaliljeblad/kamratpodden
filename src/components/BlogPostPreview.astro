@@ -14,11 +14,11 @@ const { post } = Astro.props;
 		</div>
 		<div class="text">
 			<header class="preview-header">
-				<p class="publish-date">{post.frontmatter.publishDate}, {post.frontmatter.author}</p>
 				<h1 class="title">{post.frontmatter.title}</h1>
+				<p class="publish-date">{post.frontmatter.publishDate}, {post.frontmatter.author}</p>
 			</header>
 			<p>{post.frontmatter.description}</p>
-			<!-- <a href={post.url}>Läs hela inlägget</a> -->
+			<p class="link">Läs hela inlägget</p>
 		</div>
 	</a>
 </article>
@@ -33,12 +33,20 @@ const { post } = Astro.props;
 	@media (min-width: 37.75em) {
 		.post-preview {
 			margin-bottom: 2rem;
+			border: 1px solid var(--theme-divider);
+		}
+
+		.post-preview a {
+			display: block;
 			padding: 1rem;
 		}
 
 		.post-preview:first-child {
 			width: 100%;
 			grid-column: 1 / -1;
+			/* background: var(--color-blue);;
+			padding: 0;
+			color: #fff; */
 		}
 
 		.post-preview:first-child a {
@@ -52,27 +60,41 @@ const { post } = Astro.props;
 		}
 
 		.post-preview:first-child .title {
-			font-size: 2rem;
+			font-size: 3.2rem;
+			line-height: 1;
 		}
+
+		/* .post-preview:first-child p,
+		.post-preview:first-child .publish-date,
+		.post-preview:first-child .author,
+		.post-preview:first-child .title {
+			color: #fff;
+		} */
 
 		.post-preview:first-child .image-wrapper {
 			width: calc(50% - 10px - 1rem);
+		}
+
+		.post-preview:first-child .preview-header {
+			padding: 2rem 0;
 		}
 	}
 
 	.post-preview a {
 		opacity: 0.8;
-		transition: opacity 0.3s ease;
+		transition: all 0.3s ease;
 	}
 
 	.post-preview a:hover {
 		text-decoration: none;
 		opacity: 1;
+		box-shadow: 0 0 12px 3px var(--color-gray-200);
 	}
 
 	.post-preview a:focus {
 		text-decoration: none;
-		outline: 5px solid rgb(240, 240, 240);
+		outline: none;
+		box-shadow: 0 0 12px 3px var(--theme-divider);
 	}
 
 	.post-preview a:hover img {
@@ -94,17 +116,14 @@ const { post } = Astro.props;
     min-height: 100%;
 	}
 
-	.text {
+	.post-preview .link {
+		margin-top: 20px;
 
+		color: var(--color-orange);
 	}
 
 	.preview-header {
-		/* align-items: flex-start;
-		display: flex;
-		flex-direction: column;
-		justify-content: center; */
 		padding: 1rem 0;
-		/* text-align: left; */
 	}
 
 	.title,
@@ -116,7 +135,13 @@ const { post } = Astro.props;
 	.publish-date,
 	.author {
 		font-size: 0.9rem;
-		color: var(--theme-text-lighter);
+		color: var(--theme-text-light);
+		text-transform: uppercase;
+    color: #888;
+    font-size: 12px;
+    letter-spacing: 0.15px;
+    font-weight: bold;
+    margin-top: 10px;
 	}
 
 	.title {
