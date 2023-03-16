@@ -1,25 +1,23 @@
 ---
 import { SITE } from '../config';
 ---
-<header class="wrapper blog-header">
-	<a href="/" class="logo-link">
-		<img class="logo" src="/assets/kamratpodden.webp" alt="">
-	</a>
-	<div>
-
-		<span class="label">Välkommen till</span>
-		<h1>Kamratpodden</h1>
-		<p></p>
+<header class="blog-header">
+	<div class="wrapper">
+		<a href="/" class="logo-link">
+			<img class="logo" src="/assets/kamratpodden.webp" alt="">
+		</a>
+		<div>
+			<span class="label">Välkommen till</span>
+			<h1>Kamratpodden</h1>
+			<p></p>
+		</div>
 	</div>
 </header>
 
 <style>
 	header {
 		position: relative;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 25px;
+
 		/* justify-content: space-between; */
 		width: 100%;
 		padding: 50px 0 100px;
@@ -41,6 +39,13 @@ import { SITE } from '../config';
 		top: -50%;
 		transform: rotate(-7deg);
 		z-index: -1;
+	}
+
+	header .wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 25px;
 	}
 
 	.logo-link:hover, .logo-link:focus {
@@ -70,7 +75,7 @@ import { SITE } from '../config';
 	}
 
 	@media (min-width: 37.75em) {
-		header {
+		header .wrapper {
 			flex-direction: row;
 			justify-content: center;
 			gap: 80px;

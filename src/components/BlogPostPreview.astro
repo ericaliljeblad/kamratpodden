@@ -14,7 +14,7 @@ const { post } = Astro.props;
 		</div>
 		<div class="text">
 			<header class="preview-header">
-				<h1 class="title">{post.frontmatter.title}</h1>
+				<h2 class="title">{post.frontmatter.title}</h2>
 				<p class="publish-date">{post.frontmatter.publishDate}, {post.frontmatter.author}</p>
 			</header>
 			<p>{post.frontmatter.description}</p>
@@ -148,5 +148,11 @@ const { post } = Astro.props;
 		font-size: 1.5rem;
 		font-weight: 700;
 		color: var(--theme-text);
+	}
+
+	@media (min-width: 37.75em) {
+		.title {
+			font-size: 1.7rem;
+		}
 	}
 </style>
