@@ -43,7 +43,7 @@ const { episodes } = Astro.props;
   <div class="wrapper">
     <Label negative>Senaste poddavsnitten</Label>
     <div class="episodes">
-      {episodes.map(e => (
+      {episodes?.map(e => (
         <Episode episode={e} />
       ))}
     </div>
