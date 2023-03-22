@@ -1,0 +1,62 @@
+---
+const { link, negative, ghost, class: className } = Astro.props;
+---
+
+{link ? (
+  <a href={link} class:list={['button', { ghost: ghost, negative: negative }, className]}>
+    <slot />
+    <svg
+      width="14"
+      height="15"
+      viewBox="0 0 14 15"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      class="arrow"
+    >
+      <path
+        d="M7 1.667 12.833 7.5m0 0L7 13.333M12.833 7.5H1.75"
+        stroke="currentColor"
+      />
+    </svg>
+  </a>
+) : (
+  <button class:list={['button', { ghost: ghost, negative: negative }, className]}>
+    <slot />
+  </button>
+)}
+
+<style lang="scss">
+	.button {
+    background: var(--color-white);
+    border: 1px solid var(--color-white);
+    color: var(--color-blue);
+
+    &.negative {
+      background: var(--color-white);
+
+      &.ghost {
+        color: var(--color-white);
+      }
+    }
+
+    &.ghost {
+      background: rgba(0, 0, 0, 0);
+    }
+
+    &:hover {
+      .arrow {
+        transform: translateX(5px);
+      }
+    }
+
+    .arrow {
+      transition: 0.2s ease;
+    }
+	}
+
+	@media (min-width: 37.75em) {
+    // button {
+		// 	font-size: 15px;
+    // }
+  }
+</style>

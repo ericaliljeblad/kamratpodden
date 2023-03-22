@@ -1,7 +1,7 @@
 ---
 // Component Imports
 import PageLayout from '../layouts/PageLayout.astro';
-import BlogPostPreview from '../components/BlogPostPreview.astro';
+import BlogList from '../components/BlogList.astro';
 
 // Component Script:
 // You can write any JavaScript/TypeScript that you'd like here.
@@ -18,14 +18,10 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
 // https://docs.astro.build/core-concepts/astro-components/
 ---
 
-
-<PageLayout>
-	<!-- <section class="intro">
-		<h1 class="latest">{title}</h1>
-		<p>{description}</p>
-	</section> -->
-  <h1>Posts</h1>
-	<section aria-label="Blog post list" class="blog-preview-list">
-		{allPosts.map((p) => <BlogPostPreview post={p} />)}
-	</section>
+<PageLayout header="Alla inlägg">
+  <BlogList posts={allPosts}>
+    <div>
+      <a href="#">Alla</a> | <a href="#">Krönika</a> | <a href="#">Porträtt</a>
+    </div>
+  </BlogList>
 </PageLayout>

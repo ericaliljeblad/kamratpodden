@@ -2,6 +2,7 @@
 [build]
   publish = "dist/"
   command = "yarn build"
+  functions = "functions"
 
 # Request bots not to index the admin section.
 [[headers]]

@@ -1,0 +1,26 @@
+---
+const { negative, class: className } = Astro.props;
+---
+<p class:list={[{negative: negative}, className]}>
+	<slot />
+</p>
+
+<style>
+	p {
+		text-transform: uppercase;
+		color: #888;
+		font-size: 13px;
+		letter-spacing: 1px;
+		font-weight: bold;
+	}
+
+  p.negative {
+    color: var(--color-white);
+  }
+
+	@media (min-width: 37.75em) {
+    p {
+			font-size: 15px;
+    }
+  }
+</style>

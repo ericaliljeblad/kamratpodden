@@ -1,13 +1,11 @@
 ---
-
+import { SITE } from '../config';
 import BaseHead from '../components/BaseHead.astro';
 import BlogHeader from '../components/BlogHeader.astro';
-import { SITE } from '../config';
+import Footer from '../components/Footer.astro';
 
-let { title } = SITE;
-let description = 'The perfect starter for your perfect blog.';
-let permalink = 'https://example.com/';
-
+let { title, description, permalink } = SITE;
+const { home = false, header } = Astro.props;
 ---
 
 <html lang="en">
@@ -40,68 +38,15 @@ let permalink = 'https://example.com/';
 				font-weight: 700;
 			} */
 
-			footer {
-        position: relative;
-        background: rgb(240, 240, 240);
-        /* background: rgba(var(--color-blue-rgb), 0.1); */
-				padding: 60px 0;
-			}
-
-      @media (min-width: 37.75em) {
-        footer {
-          padding: 100px 0;
-        }
-      }
-
-      footer::before {
-        /* content: ''; */
-        position: absolute;
-        display: block;
-        /* background: rgba(var(--color-blue-rgb), 0.1); */
-        background: rgb(240, 240, 240);
-        /* background: linear-gradient(rgba(var(--color-blue-rgb), 0.1), white); */
-        height: 100%;
-        width: 150vw;
-        left: -25vw;
-        top: -50%;
-        transform: rotate(-7deg);
-        z-index: -1;
-      }
-
-			.footer-content {
-				display: flex;
-				flex-direction: column;
-			}
-
-      .footer-content p {
-        font-size: 14px;
-        max-width: 600px;
-      }
-
-      .footer-content p:first-of-type {
-        margin-bottom: 0.5rem;
-      }
-
 		</style>
 	</head>
 
 	<body>
-		<BlogHeader />
-		<div class="wrapper">
-			<main class="content">
-				<slot />
-			</main>
-		</div>
-		<footer>
-			<div class="wrapper footer-content">
-				<!-- <a href="#">Podden</a>
-				<a href="#">Arkiv</a>
-				<a href="#">Om oss</a> -->
-				<!-- <a href="/admin">Admin Dashboard 🔐</a> -->
-        <p><strong>Kamratpodden</strong> är en podcast om vår älskade Allsvenskan i allmänhet och vårt älskade IFK Göteborg i synnerhet. Grundad av Antonijo Matanovic, Christian Olsson och Daniel Andrén.</p>
+    <BlogHeader home={home} header={header} />
+    <main class="content">
+      <slot />
+    </main>
 
-        <p>Kontakt: <a href="mailto:kamratpodden@gmail.com">kamratpodden@gmail.com</a></p>
-			</div>
-		</footer>
+		<Footer />
 	</body>
 </html>

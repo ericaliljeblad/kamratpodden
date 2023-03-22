@@ -1,0 +1,42 @@
+---
+import BlogPostPreview from '../components/BlogPostPreview.astro';
+import Label from '../components/Label.astro';
+
+const { posts, readmore, label } = Astro.props;
+---
+
+<style lang="scss">
+	.label  {
+		margin-bottom: 15px;
+
+		@media (min-width: 37.75em) {
+			margin-bottom: -5px;
+		}
+	}
+
+	.readmore {
+		display: block;
+		text-align: center;
+		padding: 20px 0 40px;
+
+		@media (min-width: 37.75em) {
+			padding: 20px 0 80px;
+		}
+	}
+
+	@media (min-width: 37.75em) {
+		.blog-preview-list {
+			display: grid;
+			gap: 20px;
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+</style>
+
+<section aria-label="Blog post list">
+	<div class="wrapper blog-preview-list">
+		{label && <Label class="label">{label}</Label>}
+  	{posts.map((p, i) => <BlogPostPreview post={p} large={i === 0} />)}
+	</div>
+	{readmore && <a class="readmore" href="/posts">Alla inlägg</a>}
+</section>

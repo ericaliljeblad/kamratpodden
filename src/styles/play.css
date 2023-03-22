@@ -1,0 +1,19 @@
+.play-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+}
+
+.play-button:hover {
+  color: var(--color-blue);
+  background: var(--color-white);
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  width: 15px;
+}

@@ -1,40 +1,29 @@
 ---
-// Component Imports
 import PageLayout from '../layouts/PageLayout.astro';
-import BlogPostPreview from '../components/BlogPostPreview.astro';
-
+import BlogList from '../components/BlogList.astro';
+import PodcastEpisodes from '../components/PodcastEpisodes.astro';
 // Component Script:
 // You can write any JavaScript/TypeScript that you'd like here.
 // It will run during the build, but never in the browser.
 // All variables are available to use in the HTML template below.
 
-
 // Data Fetching: List all Markdown posts in the repo.
 
 let allPosts = await Astro.glob('./posts/*.md');
-allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf());
+allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf()).slice(0, 3);;
 
-// Full Astro Component Syntax:
-// https://docs.astro.build/core-concepts/astro-components/
+const episodes = await Promise.all([
+	fetch("http://localhost:8888/.netlify/functions/spotify")
+		.then((res) => res.json())
+		.then(data => {
+			return data
+		})
+		.catch(error => console.error(error))
+])
+
 ---
-<style>
-	@media (min-width: 37.75em) {
-		.blog-preview-list {
-			display: grid;
-			gap: 20px;
-			grid-template-columns: repeat(2, 1fr);
-		}
-	}
-</style>
 
-
-<PageLayout>
-	<!-- <section class="intro">
-		<h1 class="latest">{title}</h1>
-		<p>{description}</p>
-	</section> -->
-	<section aria-label="Blog post list" class="blog-preview-list">
-		{allPosts.map((p) => <BlogPostPreview post={p} />)}
-	</section>
+<PageLayout home>
+	<BlogList posts={allPosts} label='Senaste inläggen' readmore />
+	<PodcastEpisodes episodes={episodes[0]} />
 </PageLayout>
-

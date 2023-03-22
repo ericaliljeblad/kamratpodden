@@ -2,10 +2,18 @@
 import BaseHead from '../components/BaseHead.astro';
 import BlogHeader from '../components/BlogHeader.astro';
 import BlogPost from '../components/BlogPost.astro';
+import Footer from '../components/Footer.astro';
 
 const { content } = Astro.props;
 const { title, description, publishDate, author, authorURL, previewImage, permalink, alt } = content;
 ---
+
+<style>
+	.meta {
+		text-align: center;
+		padding-bottom: 40px;
+	}
+</style>
 
 <html lang={content.lang || 'en'}>
 	<head>
@@ -13,11 +21,15 @@ const { title, description, publishDate, author, authorURL, previewImage, permal
 	</head>
 
 	<body>
-		<BlogHeader />
+		<BlogHeader backgroundImage={previewImage} />
 		<div class="wrapper">
 			<BlogPost {title} {author} {authorURL} {previewImage} {publishDate} {alt}>
 				<slot />
 			</BlogPost>
 		</div>
+		<div class="meta">
+			<a href="/posts">Alla inlägg</a>
+		</div>
+		<Footer />
 	</body>
 </html>

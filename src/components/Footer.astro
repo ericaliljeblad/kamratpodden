@@ -1,0 +1,50 @@
+<style>
+  footer {
+    position: relative;
+    background: rgb(240, 240, 240);
+    /* background: rgba(var(--color-blue-rgb), 0.1); */
+    padding: 60px 0;
+  }
+
+  @media (min-width: 37.75em) {
+    footer {
+      padding: 100px 0;
+    }
+  }
+
+  footer::before {
+    /* content: ''; */
+    position: absolute;
+    display: block;
+    /* background: rgba(var(--color-blue-rgb), 0.1); */
+    background: rgb(240, 240, 240);
+    /* background: linear-gradient(rgba(var(--color-blue-rgb), 0.1), white); */
+    height: 100%;
+    width: 150vw;
+    left: -25vw;
+    top: -50%;
+    transform: rotate(-7deg);
+    z-index: -1;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-content p {
+    font-size: 14px;
+    max-width: 600px;
+  }
+
+  .footer-content p:first-of-type {
+    margin-bottom: 0.5rem;
+  }
+</style>
+
+<footer>
+  <div class="wrapper footer-content">
+    <p><strong>Kamratpodden</strong> är en podcast om vår älskade Allsvenskan i allmänhet och vårt älskade IFK Göteborg i synnerhet. Grundad av Antonijo Matanovic, Christian Olsson och Daniel Andrén.</p>
+    <p>Kontakt: <a href="mailto:kamratpodden@gmail.com">kamratpodden@gmail.com</a></p>
+  </div>
+</footer>

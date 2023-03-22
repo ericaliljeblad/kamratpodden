@@ -1,0 +1,51 @@
+---
+import Label from '../components/Label.astro';
+import Episode from '../components/Episode.astro';
+
+const { episodes } = Astro.props;
+---
+
+<style lang="scss">
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .episodesSection {
+    padding: 40px 0 50px;
+    background: var(--color-blue);
+    color: var(--color-white);
+  }
+
+  .episodes {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+
+  @media (min-width: 768px) {
+		.episodes {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 45px;
+		}
+	}
+
+	@media (min-width: 1024px) {
+		.episodes {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+		}
+	}
+</style>
+
+<section class="episodesSection" aria-label="Latest podcast episodes">
+  <div class="wrapper">
+    <Label negative>Senaste poddavsnitten</Label>
+    <div class="episodes">
+      {episodes.map(e => (
+        <Episode episode={e} />
+      ))}
+    </div>
+  </div>
+</section>

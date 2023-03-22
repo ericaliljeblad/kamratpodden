@@ -1,12 +1,10 @@
 ---
-export interface Props {
-	post: any;
-}
+import H2 from '../components/H2.astro'
 
-const { post } = Astro.props;
-
+const { post, large } = Astro.props;
 ---
-<article class="post-preview">
+
+<article class={`post-preview ${large && 'large'}`}>
 	<a href={post.url}>
 		<!-- <img src="/assets/blog/317575099_149334201183788_2298528759472121366_n.jpeg" /> -->
 		<div class="image-wrapper">
@@ -14,7 +12,7 @@ const { post } = Astro.props;
 		</div>
 		<div class="text">
 			<header class="preview-header">
-				<h2 class="title">{post.frontmatter.title}</h2>
+				<H2 large={large}>{post.frontmatter.title}</H2>
 				<p class="publish-date">{post.frontmatter.publishDate}, {post.frontmatter.author}</p>
 			</header>
 			<p>{post.frontmatter.description}</p>
@@ -41,7 +39,7 @@ const { post } = Astro.props;
 			padding: 1rem;
 		}
 
-		.post-preview:first-child {
+		.post-preview.large {
 			width: 100%;
 			grid-column: 1 / -1;
 			/* background: var(--color-blue);;
@@ -49,19 +47,14 @@ const { post } = Astro.props;
 			color: #fff; */
 		}
 
-		.post-preview:first-child a {
+		.post-preview.large a {
 			display: flex;
 			align-items: flex-start;
 			gap: 20px;
 		}
 
-		.post-preview:first-child .image-wrapper {
+		.post-preview.large .image-wrapper {
 			aspect-ratio: 1.4;
-		}
-
-		.post-preview:first-child .title {
-			font-size: 3.2rem;
-			line-height: 1;
 		}
 
 		/* .post-preview:first-child p,
@@ -71,11 +64,11 @@ const { post } = Astro.props;
 			color: #fff;
 		} */
 
-		.post-preview:first-child .image-wrapper {
+		.post-preview.large .image-wrapper {
 			width: calc(50% - 10px - 1rem);
 		}
 
-		.post-preview:first-child .preview-header {
+		.post-preview.large .preview-header {
 			padding: 2rem 0;
 		}
 	}
@@ -116,6 +109,10 @@ const { post } = Astro.props;
     min-height: 100%;
 	}
 
+	.post-preview p {
+		color: var(--theme-text);
+	}
+
 	.post-preview .link {
 		margin-top: 20px;
 
@@ -142,17 +139,5 @@ const { post } = Astro.props;
     letter-spacing: 0.15px;
     font-weight: bold;
     margin-top: 10px;
-	}
-
-	.title {
-		font-size: 1.5rem;
-		font-weight: 700;
-		color: var(--theme-text);
-	}
-
-	@media (min-width: 37.75em) {
-		.title {
-			font-size: 1.7rem;
-		}
 	}
 </style>

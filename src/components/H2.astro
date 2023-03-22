@@ -1,0 +1,31 @@
+---
+const { negative, large } = Astro.props;
+---
+<h2 class:list={[{ negative: negative, large: large }]}>
+	<slot />
+</h2>
+
+<style lang="scss">
+	h2 {
+    margin: 0;
+		font-size: 1.5rem;
+		font-weight: 700;
+    line-height: 1.2;
+		color: var(--theme-text);
+
+    @media (min-width: 37.75em) {
+			font-size: 1.7rem;
+  	}
+	}
+
+  h2.negative {
+    color: var(--color-white);
+  }
+
+  h2.large {
+    @media (min-width: 37.75em) {
+      font-size: 3.2rem;
+      line-height: 1;
+    }
+  }
+</style>

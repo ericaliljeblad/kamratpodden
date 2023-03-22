@@ -1,32 +1,41 @@
 ---
 import { SITE } from '../config';
+import Label from '../components/Label.astro';
+
+const { home, header, backgroundImage } = Astro.props;
 ---
-<header class="blog-header">
+<header class={`blog-header ${home ? 'large' : backgroundImage ? 'hasBgImage' : ''}`} style={{	'--image': `url(${backgroundImage})` }}>
 	<div class="wrapper">
 		<a href="/" class="logo-link">
 			<img class="logo" src="/assets/kamratpodden.webp" alt="">
 		</a>
 		<div>
-			<span class="label">Välkommen till</span>
-			<h1>Kamratpodden</h1>
-			<p></p>
+			{home && <Label>Välkommen till</Label>}
+			<h1>{home ? 'Kamratpodden' : header}</h1>
+			<slot />
 		</div>
 	</div>
 </header>
 
 <style>
-	header {
+	.blog-header {
 		position: relative;
+		display: flex;
 
 		/* justify-content: space-between; */
 		width: 100%;
-		padding: 50px 0 100px;
+		height: 500px;
+		/* padding: 50px 0 100px; */
 		overflow: hidden;
 		text-align: center;
 		/* height: 50vh; */
 	}
 
-	header::after {
+	.blog-header.hasBgImage {
+		background: rgba(255,255,255,0.3);
+	}
+
+	.blog-header::after {
 		content: '';
 		position: absolute;
 		display: block;
@@ -34,14 +43,18 @@ import { SITE } from '../config';
 		background: rgb(240, 240, 240);
 		/* background: linear-gradient(rgba(var(--color-blue-rgb), 0.1), white); */
 		height: 130%;
-		width: 200vw;
-		left: -50vw;
+		width: 150vw;
+		left: -25vw;
 		top: -50%;
 		transform: rotate(-7deg);
 		z-index: -1;
+		background-image: var(--image);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: top left; */
 	}
 
-	header .wrapper {
+	.blog-header .wrapper {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -54,17 +67,12 @@ import { SITE } from '../config';
 	}
 
 	.logo {
-		width: 250px;
-		object-fit: contain;
+		width: 150px;
 	}
 
-	.label {
-		text-transform: uppercase;
-		color: #888;
-		/* var(--color-blue); */
-		font-size: 13px;
-		letter-spacing: 1px;
-		font-weight: bold;
+	.logo {
+		width: 250px;
+		object-fit: contain;
 	}
 
 	h1 {
@@ -75,23 +83,40 @@ import { SITE } from '../config';
 	}
 
 	@media (min-width: 37.75em) {
-		header .wrapper {
-			flex-direction: row;
-			justify-content: center;
-			gap: 80px;
+		.blog-header {
+			overflow: unset;
+			align-items: flex-end;
+		}
+
+		.blog-header .wrapper {
+			flex-direction: row-reverse;
+			justify-content: flex-start;
+			padding: 100px 2rem;
+			gap: 60px;
 			text-align: left;
 		}
 
-		.logo {
+		.blog-header.large .wrapper {
+			flex-direction: row;
+			justify-content: center;
+			gap: 80px;
+		}
+
+		.blog-header.large .logo {
 			width: 350px;
 		}
 
-		.label {
-			font-size: 15px;
+		.logo {
+			width: 200px;
+		}
+
+		.blog-header.large h1 {
+			font-size: 80px;
 		}
 
 		h1 {
-			font-size: 80px;
+			font-size: 60px;
+			color: rgba(17, 24, 39, 0.8);
 		}
 	}
 
