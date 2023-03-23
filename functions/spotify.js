@@ -1,3 +1,4 @@
+import fetch from 'node-fetch';
 
 exports.handler = async (event, context) => {
   const SPOTIFY_REFRESH_TOKEN = process.env.SPOTIFY_REFRESH_TOKEN;
@@ -46,4 +47,4 @@ exports.handler = async (event, context) => {
         body: JSON.stringify(json.items),
       };
     });
-};
+}
