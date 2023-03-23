@@ -21,14 +21,7 @@ const episodes = await Promise.all([
 		.catch(error => console.error(error))
 ])
 
-console.log("E1: ", episodes)
-
-const response = await fetch(`${import.meta.env.SITE_URL}/.netlify/functions/spotify`);
-const data = await response.json();
-const episodes2 = data;
-
-console.log("E2: ", episodes2)
-
+console.log("EPISODES: ", episodes)
 
 ---
 
