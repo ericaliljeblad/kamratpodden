@@ -9,7 +9,7 @@ const { posts, readmore, label } = Astro.props;
 	.label  {
 		margin-bottom: 15px;
 
-		@media (min-width: 37.75em) {
+		@media (min-width: 800px) {
 			margin-bottom: -5px;
 		}
 	}
@@ -19,12 +19,12 @@ const { posts, readmore, label } = Astro.props;
 		text-align: center;
 		padding: 20px 0 40px;
 
-		@media (min-width: 37.75em) {
+		@media (min-width: 800px) {
 			padding: 20px 0 80px;
 		}
 	}
 
-	@media (min-width: 37.75em) {
+	@media (min-width: 800px) {
 		.blog-preview-list {
 			display: grid;
 			gap: 20px;
@@ -38,5 +38,9 @@ const { posts, readmore, label } = Astro.props;
 		{label && <Label class="label">{label}</Label>}
   	{posts.map((p, i) => <BlogPostPreview post={p} large={i === 0} />)}
 	</div>
-	{readmore && <a class="readmore" href="/posts">Alla inlägg</a>}
+	{readmore &&
+		<div class="readmore">
+			<a href="/posts">Alla inlägg</a>
+		</div>
+	}
 </section>

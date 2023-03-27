@@ -19,9 +19,9 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
 ---
 
 <PageLayout header="Alla inlägg">
+  <!-- <div>
+    <a href="#">Alla</a> | <a href="#">Krönika</a> | <a href="#">Porträtt</a>
+  </div> -->
   <BlogList posts={allPosts}>
-    <div>
-      <a href="#">Alla</a> | <a href="#">Krönika</a> | <a href="#">Porträtt</a>
-    </div>
   </BlogList>
 </PageLayout>
