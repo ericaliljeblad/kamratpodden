@@ -7,9 +7,11 @@ const { home, header, backgroundImage } = Astro.props;
 ---
 <header class={`blog-header ${home ? 'large' : backgroundImage ? 'hasBgImage' : ''}`} style={{	'--image': `url(${backgroundImage})` }}>
 	<div class="wrapper">
-		<a href="/" class="logo-link">
-			<img class="logo" src="/assets/kamratpodden.webp" alt="">
-		</a>
+		{!backgroundImage && (
+			<a href="/" class="logo-link">
+				<img class="logo" src="/assets/kamratpodden.webp" alt="Kamratpodden logotyp">
+			</a>
+		)}
 		<div>
 			{home && <Label>Välkommen till</Label>}
 			<H1 small={!home}>{home ? 'Kamratpodden' : header}</H1>
@@ -26,8 +28,9 @@ const { home, header, backgroundImage } = Astro.props;
 		height: 500px;
 		overflow: hidden;
 		text-align: center;
+		z-index: -1;
 
-		@media (min-width: 700px) {
+		@media (min-width: 900px) {
 			overflow: unset;
 			align-items: flex-end;
 			text-align: left;
@@ -40,20 +43,31 @@ const { home, header, backgroundImage } = Astro.props;
 			/* background: rgba(var(--color-blue-rgb), 0.1); */
 			background: rgb(240, 240, 240);
 			/* background: linear-gradient(rgba(var(--color-blue-rgb), 0.1), white); */
-			height: 130%;
+			height: 100%;
 			width: 150vw;
 			left: -25vw;
-			top: -50%;
+			top: -10%;
 			transform: rotate(-7deg);
 			z-index: -1;
 			background-image: var(--image);
 			background-size: cover;
 			background-repeat: no-repeat;
-			/* background-position: top left; */
+			background-position: center;
+
+			@media (min-width: 900px) {
+				height: 130%;
+				width: 150vw;
+				left: -25vw;
+				top: -50%;
+			}
 		}
 
 		&.hasBgImage {
 			background: rgba(255, 255, 255, 0.4);
+
+			@media (min-width: 1300px) {
+				height: 700px;
+			}
 		}
 
 		&.large {

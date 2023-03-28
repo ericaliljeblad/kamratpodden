@@ -73,7 +73,6 @@ const { post, large } = Astro.props;
 		}
 
 		a {
-
 			@media (min-width: 800px) {
 				display: block;
 				padding: 1rem;
@@ -127,8 +126,12 @@ const { post, large } = Astro.props;
 
 	.post-preview .link {
 		margin-top: 20px;
-
+		font-family: var(--font-title);
 		color: var(--color-orange);
+
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 
 	.preview-header {
@@ -138,6 +141,7 @@ const { post, large } = Astro.props;
 	.title,
 	.author,
 	.publish-date {
+		font-family: var(--font-title);
 		margin: 0;
 	}
 

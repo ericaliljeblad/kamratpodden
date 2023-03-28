@@ -32,38 +32,42 @@ const { title, author, authorURL, publishDate, alt, previewImage } = Astro.props
 </div>
 
 <style lang="scss">
-	.hero-image {
-		width: 100vw;
-		object-fit: cover;
-		object-position: center;
-		margin-top: 2rem;
-		margin-bottom: 4rem;
-		max-width: 1280px;
-	}
+	// .hero-image {
+	// 	width: 100vw;
+	// 	object-fit: cover;
+	// 	object-position: center;
+	// 	margin-top: 2rem;
+	// 	margin-bottom: 4rem;
+	// 	max-width: 1280px;
+	// }
 
-	@media (max-width: 50em) {
-		.hero-image {
-			height: 260px;
-			margin-top: 0;
-			margin-bottom: 2rem;
-		}
-	}
+	// @media (max-width: 50em) {
+	// 	.hero-image {
+	// 		height: 260px;
+	// 		margin-top: 0;
+	// 		margin-bottom: 2rem;
+	// 	}
+	// }
 
 	.content {
 		max-width: 800px;
-		margin: 0 auto 3rem;
+		margin: 0 auto 2rem;
 
-		@media (min-width: 800px) {
-			margin: 0 auto 8rem;
+		@media (min-width: 900px) {
+			margin: -60px auto 6rem;
 		}
 	}
 
 	.content :global(main > p + p) {
-		margin-top: 1rem;
+		margin-top: 2rem;
 	}
 
 	.content :global(main img) {
 		margin: 3rem 0 0;
+		// margin-left: -100px;
+		// margin-right: -100px;
+		// width: calc(100% + 200px);
+		background: rgb(240, 240, 240);
 	}
 
 	.content :global(h2),
@@ -86,9 +90,11 @@ const { title, author, authorURL, publishDate, alt, previewImage } = Astro.props
 		align-items: center;
 		justify-content: center;
 		gap: 10px;
-
-		padding-bottom: 2rem;
 		margin-bottom: 2rem;
+
+		@media (min-width: 800px) {
+			padding-bottom: 2rem;
+		}
 	}
 
 	.title,
@@ -105,10 +111,6 @@ const { title, author, authorURL, publishDate, alt, previewImage } = Astro.props
 	.title {
 		font-size: 2.25rem;
 		font-weight: 700;
-	}
-
-	img {
-		margin-top: 30px;
 	}
 </style>
 

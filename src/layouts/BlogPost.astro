@@ -3,15 +3,21 @@ import BaseHead from '../components/BaseHead.astro';
 import BlogHeader from '../components/BlogHeader.astro';
 import BlogPost from '../components/BlogPost.astro';
 import Footer from '../components/Footer.astro';
+import Button from '../components/Button.astro';
 
 const { content } = Astro.props;
 const { title, description, publishDate, author, authorURL, previewImage, permalink, alt } = content;
 ---
 
-<style>
+<style lang="scss">
 	.meta {
-		text-align: center;
-		padding-bottom: 40px;
+		display: flex;
+		justify-content: center;
+		padding: 20px 0 40px;
+
+		@media (min-width: 800px) {
+			padding: 20px 0 80px;
+		}
 	}
 </style>
 
@@ -28,7 +34,9 @@ const { title, description, publishDate, author, authorURL, previewImage, permal
 			</BlogPost>
 		</div>
 		<div class="meta">
-			<a href="/posts">Alla inlägg</a>
+			<Button link="/posts">
+				Alla inlägg
+			</Button>
 		</div>
 		<Footer />
 	</body>
