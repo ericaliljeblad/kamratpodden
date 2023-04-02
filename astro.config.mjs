@@ -49,12 +49,14 @@ export default defineConfig({
           name: 'description',
           widget: 'text',
           label: 'Description',
-          required: true
+          required: true,
+          hint: 'Kommer att visas i inläggs-listningar'
         }, {
           name: 'previewImage',
           widget: 'image',
           label: 'Preview image',
-          required: true
+          required: true,
+          hint: 'Kommer visas i inläggs-listningar och i toppen av inlägget'
         }, {
           name: 'intro',
           widget: 'text',
@@ -64,14 +66,6 @@ export default defineConfig({
           name: 'body',
           widget: 'markdown',
           label: 'Post Body'
-        }, {
-          name: 'layout',
-          widget: 'select',
-          default: '../../layouts/BlogPost.astro',
-          options: [{
-            label: 'Blog Post',
-            value: '../../layouts/BlogPost.astro'
-          }]
         }]
       }]
     },
