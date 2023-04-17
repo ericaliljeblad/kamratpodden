@@ -6,7 +6,7 @@ import Footer from '../components/Footer.astro';
 import Button from '../components/Button.astro';
 
 const { content } = Astro.props;
-const { title, description, publishDate, author, authorURL, previewImage, permalink, alt } = content;
+const { title, description, intro, publishDate, author, authorURL, previewImage, permalink, alt } = content;
 ---
 
 <style lang="scss">
@@ -29,7 +29,7 @@ const { title, description, publishDate, author, authorURL, previewImage, permal
 	<body>
 		<BlogHeader backgroundImage={previewImage} />
 		<div class="wrapper">
-			<BlogPost {title} {author} {authorURL} {previewImage} {publishDate} {alt}>
+			<BlogPost {title} {author} {authorURL} {intro} {previewImage} {publishDate} {alt}>
 				<slot />
 			</BlogPost>
 		</div>

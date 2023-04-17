@@ -12,7 +12,7 @@ export interface Props {
 	alt: string;
 }
 
-const { title, author, authorURL, publishDate, alt, previewImage } = Astro.props as Props;
+const { title, author, intro, authorURL, publishDate, alt, previewImage } = Astro.props as Props;
 
 ---
 
@@ -25,6 +25,7 @@ const { title, author, authorURL, publishDate, alt, previewImage } = Astro.props
 				<H1 small class="title">{title}</H1>
 			</header>
 			<main>
+				<p>{intro}</p>
 				<slot />
 			</main>
 		</div>
