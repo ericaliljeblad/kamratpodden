@@ -5,6 +5,7 @@ import Label from './Label.astro';
 
 export interface Props {
 	title: string;
+	intro: string;
 	author: string;
 	authorURL: string;
 	publishDate: string;
@@ -25,7 +26,7 @@ const { title, author, intro, authorURL, publishDate, alt, previewImage } = Astr
 				<H1 small class="title">{title}</H1>
 			</header>
 			<main>
-				<p>{intro}</p>
+				<p class="intro">{intro}</p>
 				<slot />
 			</main>
 		</div>
@@ -96,6 +97,10 @@ const { title, author, intro, authorURL, publishDate, alt, previewImage } = Astr
 		@media (min-width: 800px) {
 			padding-bottom: 2rem;
 		}
+	}
+
+	.intro {
+		white-space: pre-wrap;
 	}
 
 	.title,
