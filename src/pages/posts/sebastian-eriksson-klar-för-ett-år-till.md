@@ -8,7 +8,7 @@ description: Officiellt. Done deal. Påskrivet och klart. Sebastian Eriksson är
 previewImage: /assets/blog/307115889_502013221932814_1595457616652334746_n-1-.jpeg
 intro: Officiellt. Done deal. Påskrivet och klart. Sebastian Eriksson är klar
   för ett år till med IFK Göteborg och med tanke på hur landet ligger kunde
-  ingenting vara [](<>)mer rätt än just det. Just nu.
+  ingenting vara mer rätt än just det. Just nu.
 layout: ../../layouts/BlogPost.astro
 ---
 Vad Sebastian Eriksson kommer att betyda för det här laget sträcker sig långt utanför de vita linjerna: han kommer att vara en pådrivare som är med och sätter en stentuff träningskultur. Han kommer att fortsätta bära Blåvita värderingar och predika dem för alla i sin närhet. Han kommer skava, skrika och vara en igel på vem som än tar hans plats i elvan. För känslan är att han inte säkras upp för att starta 30 matcher (sin fina höst till trots).
