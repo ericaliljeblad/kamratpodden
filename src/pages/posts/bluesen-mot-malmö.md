@@ -34,6 +34,6 @@ Trots att Marcus Berg börjar se sliten ut och knappt ser ut att kunna jogga obe
 
 Med 20 minuter kvar syntes det att Malmö ägt bollen större delen av matchen och att löpa mot eget mål såg förtvivlat jobbigt ut för samtliga, möjligen med Carlén borträknad, men det kanske är vad man förväntar sig av någon från Björsätter. En slutkörd Ohlsson fick byta med Linus Carlstrand, men när han väl fick komma in hade Blåvitt helt tappat greppet om matchen. Fick Blåvitt tag på bollen var Malmös spelare där och tog tillbaka den.
 
-I ett sista desperat försök bytte firma Lundin Tengryd in Suleiman Abdullahi och offrade en dränerad Hausner. 
+I ett sista desperat försök bytte firma Lundin Tengryd in Suleiman Abdullahi och offrade en dränerad Hausner.  
 
 Blåvitt hade ett par lägen där en kvittering var nära förestående, men sett till 90 minuter var man aldrig nära att få med sig någon poäng.
