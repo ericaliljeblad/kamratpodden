@@ -15,6 +15,7 @@ intro: >-
 
 
   IFK Göteborg mot Malmö FF. Blåvitt har klampat igenom Egyptens tio plågor och Malmö FF har fått en smakstart med sin nye tränare. Ett spel i Cupen som resulterade i en snöplig förlust på straffar Mot Djurgården och två raka uddamålssegrar. Blåvitt vann mot Utsikten, förlorade, förlorade, sparkade tränaren och förlorade igen. När Tengryd och Lundin spelat ut i princip alla kort stod hoppet slutligen till Sebastian Eriksson. Skulle han få ordning på Blåvitts mittfält tillsammans med Hagen och Carlén?
+layout: ../../layouts/BlogPost.astro
 ---
 Solen sken och i solväggen var det mycket varmare än de 15 grader termometern visade. På läktaren var det hett och och ljudkulissen slog emot en med en öronbedövande kraft. Lukten från de många bengalerna tog hand om att bedöva doftsinnet. En svårslagen aprilkväll, således. 
 
