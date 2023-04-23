@@ -7,7 +7,7 @@ description: "Blåvitt kom till kamp med noll segrar och noll gjorda mål så h�
   elvan och matchade tre innermittfältare från start och man stod för årets
   starkaste prestation. Nu stod Djurgårdens IF på andra sidan och det är inte
   precis årets enklaste match. "
-previewImage: /assets/blog/341385266_632915705344803_2762094883854894899_n.jpg
+previewImage: /assets/blog/337879323_3428522134030948_2709835573253989116_n.jpg
 intro: ""
 layout: ../../layouts/BlogPost.astro
 ---
@@ -20,6 +20,8 @@ Allt ansvar vilade på Marcus Bergs axlar. Suleiman Abdullahi stannade hemma i G
 Ja, och så Hagen då, som återigen skulle spela i den så kallade tia-positionen. Det har han inte gjort bra innan och han gjorde det inte bra idag heller. Mer om det längre ner i texten. 
 
 Det var nämligen inte Hagens utgångsposition som var det största problemet under matchens inledning. Redan i matchens sjätte minut fick Adam i målet ett fullständigt hjärnsläpp och bjöd Djurgården på ett mål. Det var det sista Blåvitt behövde. Blåvitt var svaga innan målet. Blåvitt var ruggigt svaga efter det. 
+
+![](/assets/blog/341385266_632915705344803_2762094883854894899_n.jpg)
 
 När knappa 25 var spelade hade man knappt mäktat med att spela bollen till en lagkamrat fler än två gånger i rad. Antal passningar stod på 51 och procenten var nere på 71. Under resten av halvleken såg det inte mycket bättre ut och när halvleken var över hade Blåvitt kommit upp i 142 passningar med en träffsäkerhet på blyga 75%. 
 
