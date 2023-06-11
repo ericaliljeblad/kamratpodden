@@ -2,13 +2,14 @@
 title: Bottennapp i Uppsala
 publishDate: 11 Jun 2023
 author: Daniel Andrén
-description: "18 omgångar jaktstart inleddes idag. Dessvärre hade Blåvitt lämnad
-  både valla sikte hemma och sköt därför blankt under tävlingens första etapp. "
+description: "18 omgångar jaktstart inleddes idag. Dessvärre hade Blåvitt lämnat
+  både valla och sikte hemma och sköt därför blankt under tävlingens första
+  etapp. "
 previewImage: /assets/blog/351170363_236383632364454_4881009213297263070_n.jpg
 intro: "Foto: Emelie Hübner"
 layout: ../../layouts/BlogPost.astro
 ---
-18 omgångar jaktstart inleddes idag. Dessvärre hade Blåvitt lämnad både valla sikte hemma och sköt därför blankt under tävlingens första etapp. 
+18 omgångar jaktstart inleddes idag. Dessvärre hade Blåvitt lämnat både valla och sikte hemma och sköt därför blankt under tävlingens första etapp. 
 
 Det är lurigt att släppa iväg motståndarna tidigt i säsongen. Det blir liksom svårt att sikta på toppen då. Man bygger ingen buffert och mot höstsäsongen har man redan varit och nallat så mycket på sparkontot att man inte har råd med tapp för att få ändarna att mötas i slutet av månaden. Något billigare är det för lagen i botten, eftersom de andra lagen också tar få poäng. 
 
