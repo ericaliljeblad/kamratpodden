@@ -57,4 +57,6 @@ Förlust. Igen. Mot Varberg den här gången. Utanför arenan samlas supportrar 
 
 Jag fattar fortfarande inte vad som hänt. Men jag har förstått att jag väntar förgäves på den där jävla Godot. 
 
+Utanför arenan har supportrar till IFK Göteborg samlats. Det ska ha varit ett bra samtal.
+
 ![](/assets/blog/347434026_745666864234114_2438297768486857485_n.jpg)
