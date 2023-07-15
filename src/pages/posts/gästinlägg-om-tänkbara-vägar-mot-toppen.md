@@ -8,7 +8,7 @@ description: Vi är nog alla överens om att vi återigen vill se Blåvitt som e
   skulle kanske kunna kraftsamla, kämpa och satsa så hårt att vi tar oss dit
   inom en snar framtid? Är det bara mer resultatfokus, vinnare och kravställare
   som saknas eller är det något annat?
-previewImage: /assets/blog/312335207_539942498139886_2435667794312545070_n.jpg
+previewImage: /assets/blog/312191592_533685572098912_3290032956511157124_n.jpg
 intro: "Foto: Emelie Hübner "
 layout: ../../layouts/BlogPost.astro
 ---
