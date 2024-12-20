@@ -14,6 +14,8 @@ description: >-
 previewImage: /assets/blog/img_2903.jpeg
 layout: ../../layouts/BlogPost.astro
 ---
+Julstress med städning av skrivbord, inhandling av för mycket mat där svensk mat ska blandas med mat från Balkan gör att luggen blir tunnare även i år. Tipsar om två Arvid Nordqvist för 79 kr på COOP och ska man ha en Aladdin eller Paradis ask enligt gamla vanor så är det Rusta som gäller för 59kr. Blir ju tokig när mataffärerna ska ha 139 kr för en ask. Dyrt och eländig output.
+
 På tal om dyrt och eländigt med värdelös output, IFK Göteborgs transferaffärer senare år är just det.
 Dyrt och eländigt! Ingen avkastning förutom Malick som gav pengar till kassan. Sportcheferiet är underkänt i IFK Göteborg även i år. Den sportsliga utvecklingen ligger oss i fatet igen. När klubben målar Europa 2026 får vi snällt nöja oss med en julhälsning från telefonkiosken där Djurgården spelade mot Legia Warzawa där tomten synade önskningarna att Götet spelar Allsvenskan 2025. Våra europambitioner får fortsätta från TV-soffan ett tag där vi får se andra svenska lag sätta prägel i Europa.
 
@@ -21,17 +23,13 @@ Vi har sålt Malick i en affär som med bonusar pendlar mellan 75-110 mkr. Vad �
 
 Lucas Bergvall såldes för över 100 mkr och med bonusar så är affären vid full pott närmare värd 200 mkr.
 
-
 Nanasi över 100 millan.
 
-
 Bajen med nya rekordaffärer.
-
 
 Elfsborg tuggar på.
 
 Gemensam nämnare på klubbarna är kontinuitet i ledande position. Klubbarna har en målbild och den har etablerats vad det är för affärer man ska göra och hur man ska göra dem.
-
 
 Lägg till att Elfsborg, Malmö och Djurgården spelar i Europa och där mäktiga Conference League bringat in nu för Djurgården över 90 mkr.
 
@@ -44,11 +42,8 @@ Flyttlådeaktionen på Kamratgården var inte bara fyndig, den gav eko i fotboll
 
 Det finns klagomål mot aktionen. Det finns beröm kring aktionen. Alla har rätt att uttrycka sig. Som medlemmar får vi prata men det är medlemmarna i stort som ska säga sitt. Årsmötet kommer var det hetaste på länge. Gör din röst hörd.
 
-
 Tomten kommer snart! Ge mig fina klappar i form av en bra sillyseason! Värva lokalt, värva talang, värva spelare som faktiskt vill vara här. 
 
-
 Over and out.
-
 
 God Jul!
