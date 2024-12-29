@@ -12,7 +12,7 @@ previewImage: /assets/blog/img_2943.jpeg
 intro: "Foto: Emelie Hübner"
 layout: ../../layouts/BlogPost.astro
 ---
-Julen och dess bestyr som tar sin tid med barn i hushållet har landat. Årets Julskinka från Lammet och Bonden ute i Gråbo får 5 hattar. Kostade närmare 300kr/kg men det var klass! Köpte hem 2 kg och det blev nästan 2kg man kunde äta rakt av. Hon som jobbar där är livsfarlig på merförsäljning så det gäller att hålla disciplinen och bibehålla den lista man. 
+Julen och dess bestyr som tar sin tid med barn i hushållet har landat. Årets Julskinka från Lammet och Bonden ute i Gråbo får 5 hattar. Kostade närmare 300kr/kg men det var klass! Köpte hem 2 kg och det blev nästan 2kg man kunde äta rakt av. Hon som jobbar där är livsfarlig på merförsäljning så det gäller att hålla disciplinen och bibehålla fokus på den lista man kom till affären med. 
 
 Lite fetare lite mer utvilad präglar mellandagarna innan det nya året ska ringas in. 
 
