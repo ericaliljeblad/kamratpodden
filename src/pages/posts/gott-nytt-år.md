@@ -7,7 +7,7 @@ description: >
   resultatraden, inget vidare spel, få (ett gigantiskt undantag) talanger som
   slog igenom, en invärvad mittback som blev högerback och lite annat smått och
   gott. 
-previewImage: /assets/blog/344730212_631108385077921_157743382438947105_n.jpg
+previewImage: /assets/blog/347254042_721402399986752_1906788483938165319_n-1-.jpg
 intro: "Foto: Emelie Hübner"
 layout: ../../layouts/BlogPost.astro
 ---
