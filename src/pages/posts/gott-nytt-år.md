@@ -13,6 +13,8 @@ layout: ../../layouts/BlogPost.astro
 ---
 På sin plats hade väl varit att skriva något glatt för att avrunda året, men det blir svårt. Det är inget år att skriva hem om på särskilt många sätt. Påvert i resultatraden, inget vidare spel, få (ett gigantiskt undantag) talanger som slog igenom, en invärvad mittback som blev högerback och lite annat smått och gott. 
 
+Jag tror att den här texten fyller någon form av terapeutisk funktion. Inte minst för mig själv.
+
 Blåvitt hade det tufft under våren och trots att man höll fler nollor med Sebastian Hausner på plan än utan honom var det ett evigt experimenterande för att se till att hålla honom borta från mittlåset. Slutligen gick flyttlasset och det var nog bäst för Hausner själv. För Blåvitt känns det som att man gjorde ett nerköp när man plockade in ersättare Bager som är både kortare och långsammare än den (inte så) galne företrädaren. 
 
 Det är lätt att sitta med facit, jag vet. 
