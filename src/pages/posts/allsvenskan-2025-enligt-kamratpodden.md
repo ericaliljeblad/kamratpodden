@@ -63,25 +63,29 @@ Blazevic, underskattade Blazevic in. Hovland och Bahoui är trötta Oliver Zande
 
 Fransson lyfter den till svaga 2. Rörigt och kämpigt. Klubben på väg neråt och värvar som Blåvitt gjorde. Bubblare: Samma publiksnitt som BK Häcken. Norrköpingborna gnäller om allt och dyker inte upp på match
 
+
+
 13: Halmstad BK
 
 Trött fönster, trötta HBK utan pengar gnetar sig kvar i kvalet. Kanske för att jag mest vill det men egentligen talar inte mycket för att dem är kvar. Ser ingen strategi i klubben, inga ekonomiska planer man följer. HBK har hamnat rejält efter och är i gungning
 
+
+
 14. Degerfors
 
-Med klubbens ekonomi så är det ett starkt sillyfönster. Faraj kommer göra sin grej under våren, Sundgren kommer med rutin till hösten. Klubb som balanserar på den ekonomiska linan och kan bara lösa korta nyförvärv. Kommer behöva sälja under sommaren. Klarar sig med nöd och näppe. Bubblaren är Leon Hien som kommer överaska
+Med klubbens ekonomi så är det ett starkt sillyfönster. Faraj kommer göra sin grej under våren, Sundgren kommer med rutin till hösten. Klubb som balanserar på den ekonomiska linan och kan bara lösa korta nyförvärv. Kommer behöva sälja under sommaren. Klarar sig med nöd och näppe. Bubblaren är Leon Hien som kommer överaska.
+
+
 
 15. Öster
 
-Brages legend Kouakou kommer imponera. Lever på små marginaler, fattiga Öster kommer inte orka. Ut ur kvalet. Bubblare: Kommer ha flest röda kort i årets Allsvenska
+Brages legend Kouakou kommer imponera. Lever på små marginaler, fattiga Öster kommer inte orka. Ut ur kvalet. Bubblare: Kommer ha flest röda kort i årets Allsvenska.
+
+
 
 16. Värnamo
 
-Trötta Värnamo, trötta Värnamo stad. Spelare som inte vill vara där, tappat tunga namn och Abdulrazak är trött och borde redan nu vara trött på Värnamo och Cibicki är bäst i sin skalle men inte på plan. Tack o hej Värnamo
-
- 
-
- 
+Trötta Värnamo, trötta Värnamo stad. Spelare som inte vill vara där, tappat tunga namn och Abdulrazak är trött och borde redan nu vara trött på Värnamo och Cibicki är bäst i sin skalle men inte på plan. Tack o hej Värnamo.
 
 Årets skyttekung: Isac Kiese Thelin
 
@@ -95,7 +99,7 @@ Trötta Värnamo, trötta Värnamo stad. Spelare som inte vill vara där, tappat
 
 Årets irritationsmoment: 8 sekundersregeln
 
-## Olssons  tabell 
+## Olssons  tabell
 
 ![](/assets/blog/347414410_227785763290791_5717916060741798469_n.jpg)
 
@@ -114,35 +118,20 @@ Kanske att jag borde ha satt Halmstad på nedflyttningsplats nu när huvudsponso
 
 
 1. Malmö
-
 2. Hammarby
-
 3. Elfsborg
-
 4. Djurgården
-
 5. Häcken
-
 6. Blåvitt *
-
 7. Aik
-
 8. Mjällby
-
 9. Sirius
-
 10. Gais
-
 11. Ifk Norrköping 
-
 12. BP
-
 13. Degerfors 
-
 14. Halmstad
-
 15. Värnamo
-
 16. Öster
 
 
@@ -152,8 +141,6 @@ Skytteligavinnare: Isak Kiese Thelin
 Årets genombrott: Noah Tolf
 
 Årets tränare: Kim Hellberg
-
-
 
 ## Andréns tabell
 
@@ -169,41 +156,28 @@ Blåvitt på en tredjeplats? Ja, alltså, det är väl mer önsketänkande än �
 
 Mjällby är svårtippade. IFK Norrköping är för Nymanberoende. IFK Värnamo som knappt ens har ett hem får det tufft. Nyheten om Halmstads storsponsor hade inte nått mig när jag lämnade in mitt tips, men nog kommer hallänningarna påverkas av miljardärens plötsliga avhopp? 
 
+
+
 1. Malmö FF
-
 2. Djurgårdens IF
-
 3. Blåvitt 
-
 4. Häcken
-
 5. HaIF
-
 6. Borås
-
 7. Mjällby
-
 8. AIK
-
 9. GAIS
-
 10. BP
-
 11. Sirius
-
 12. Norrköping
-
 13. Bollklubben
-
 14. Öster
-
 15. Värnamo
-
 16. Degerfors IF
 
+
+
 Skyttekung: Isaac Kiese-Thelin (Botheim vräker in mål under våren och säljs i sommar).
-
-
 
 Årets genombrott: Noah Tolf
 
