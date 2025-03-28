@@ -17,23 +17,23 @@ layout: ../../layouts/BlogPost.astro
 
 1.       Malmö FF
 
-Har bredden, har laget, ett år äldre. Sigurdsson bra in men man har gått bet på spelare. Kommer sälja Hugo Bolin till sommaren för över 100 mkr. Kommer missa CL men spelar i EL och Rydström kommer naivt tro att hans fotboll funkar i Europa med materialet men ICKE. Tar hem ligan men inte lika dominant då det börjar bli mätta spelare i laget. Bubblare 1:  OM Elfsborg har en helvetes vår vinner dem Allsvenskan. Bublare 2: Rydström lämnar efter sommaren för HSV
+Har bredden, har laget, ett år äldre. Sigurdsson bra in men man har gått bet på spelare. Kommer sälja Hugo Bolin till sommaren för över 100 mkr. Kommer missa CL men spelar i EL och Rydström kommer naivt tro att hans fotboll funkar i Europa med materialet men ICKE. Tar hem ligan men inte lika dominant då det börjar bli mätta spelare i laget. Bubblare 1:  OM Elfsborg har en helvetes vår vinner dem Allsvenskan. Bublare 2: Rydström lämnar efter sommaren för HSV.
 
 2.       BK Häcken
 
-Silas Anderssen och Brice är klassnyförvärv och tränarvalet är rätt. Förlorar cupfinalen och kommer som vanligt spela utan press. Laget tar kraftig revansch och kommer utmana om guldet långt in i säsongen. Hristic kommer blomma i laget
+Silas Anderssen och Brice är klassnyförvärv och tränarvalet är rätt. Förlorar cupfinalen och kommer som vanligt spela utan press. Laget tar kraftig revansch och kommer utmana om guldet långt in i säsongen. Hristic kommer blomma i laget.
 
 3.       Hammarby IF
 
-Sjukt fönster men mest vad som gått ut och pengar som kommit in med Toure till Hoffenheim. Har in Abraham och Ortmark som sticker ut.  Bajen kommer ha ett jävla sommarfönster och gasa och slå transferrekord in på ett fönster för att spela i
+Sjukt fönster men mest vad som gått ut och pengar som kommit in med Toure till Hoffenheim. Har in Abraham och Ortmark som sticker ut.  Bajen kommer ha ett jävla sommarfönster och gasa och slå transferrekord in på ett fönster för att spela i.
 
 4.       AIK
 
-Kakoullis, Benkovic, Hove, Aron starka papper. Fsg av Pittas tung att ersätta. Saletros förlängningen är sillyns starkaste papper. Skadedrabbat och en klubbkassa som sinar. AIK kommer lägga all energi på Europa. Missar man ECL kommer klubben blöda
+Kakoullis, Benkovic, Hove, Aron starka papper. Fsg av Pittas tung att ersätta. Saletros förlängningen är sillyns starkaste papper. Skadedrabbat och en klubbkassa som sinar. AIK kommer lägga all energi på Europa. Missar man ECL kommer klubben blöda.
 
 5.       Djurgården
 
-Manojlovic och Sawo lyfter \*\* till \*\**. Siltanen kommer behöva tid och mitt frågetecken ligger i försvaret. Djurgården spelar Europa tack vare Malmö FF. Kommer bra seedat in i ECL igen och kommer konsekvent nobba bud på spelare, man har ekonomin hemma och vill ta ytterligare kliv. Kommer inte orka parera både Europa och AS.  Bredden är inte där. Kommer börja Allsvenskan svagt pga ECL fokuset just nu. Bubblare! Sawo floppar
+Manojlovic och Sawo lyfter \*\* till \*\**. Siltanen kommer behöva tid och mitt frågetecken ligger i försvaret. Djurgården spelar Europa tack vare Malmö FF. Kommer bra seedat in i ECL igen och kommer konsekvent nobba bud på spelare, man har ekonomin hemma och vill ta ytterligare kliv. Kommer inte orka parera både Europa och AS.  Bredden är inte där. Kommer börja Allsvenskan svagt pga ECL fokuset just nu. Bubblare! Sawo floppar.
 
 6.       Elfsborg
 
@@ -45,29 +45,33 @@ Axel Noren, briljant affär in. Wikström ut känns, Allsvenskan har större res
 
 8.       IFK Göteborg
 
-Allsvenskans bästa fönster. Bra spelare för den låga pengen, på det Tolf och Eriksson som tar plats från akademin. Försäljningen av Laurs är galet bra! Kommer sälja till sommaren för att fortsätta stärka kassan då Europa inte är inom räckhåll ännu men kliven tas åt rätt håll. Kommer blanda och ge i sann Billborn anda. Galna jävla fotbollen i år av Blåvitt
+Allsvenskans bästa fönster. Bra spelare för den låga pengen, på det Tolf och Eriksson som tar plats från akademin. Försäljningen av Laurs är galet bra! Kommer sälja till sommaren för att fortsätta stärka kassan då Europa inte är inom räckhåll ännu men kliven tas åt rätt håll. Kommer blanda och ge i sann Billborn anda. Galna jävla fotbollen i år av Blåvitt.
 
 9.       Sirius
 
-Diawara bra målvakt in. Trött fönster men ordning och reda i klubben. Ekonomin tar kliv, man bygger på lång sikt och ja Sirius gör sin grej. Bubblare, Ola Andersson tackar för sig i år
+Diawara bra målvakt in. Trött fönster men ordning och reda i klubben. Ekonomin tar kliv, man bygger på lång sikt och ja Sirius gör sin grej. Bubblare, Ola Andersson tackar för sig i år.
 
 10.   GAIS
 
 Svagare fönster. Tunga tapp med Axel Noren och Ahl Holmström. Kommer vara fysiskt starkare igen och det kommer man långt på. Bubblare, Ibrahim Diabate floppar
 
-11 Brommapojkarna
+11. Brommapojkarna
 
-Blazevic, underskattade Blazevic in. Hovland och Bahoui är trötta Oliver Zanden kommer briljera. Stabil ekonomi, mår bra, nöjda med livet. En harmoni i klubben. Saknar skyttekungen som kommer till hösten och lyfter laget
+Blazevic, underskattade Blazevic in. Hovland och Bahoui är trötta Oliver Zanden kommer briljera. Stabil ekonomi, mår bra, nöjda med livet. En harmoni i klubben. Saknar skyttekungen som kommer till hösten och lyfter laget.
 
-12 IFK Norrköping
+12. IFK Norrköping
 
-Fransson lyfter den till svaga 2. Rörigt och kämpigt. Klubben på väg neråt och värvar som Blåvitt gjorde. Bubblare: Samma publiksnitt som BK Häcken. Norrköpingborna gnäller om allt och dyker inte upp på match
+Fransson lyfter den till svaga 2. Rörigt och kämpigt. Klubben på väg neråt och värvar som Blåvitt gjorde. Bubblare: Samma publiksnitt som BK Häcken. Norrköpingborna gnäller om allt och dyker inte upp på match.
 
 
 
-13: Halmstad BK
 
-Trött fönster, trötta HBK utan pengar gnetar sig kvar i kvalet. Kanske för att jag mest vill det men egentligen talar inte mycket för att dem är kvar. Ser ingen strategi i klubben, inga ekonomiska planer man följer. HBK har hamnat rejält efter och är i gungning
+
+13. Halmstad BK
+
+Trött fönster, trötta HBK utan pengar gnetar sig kvar i kvalet. Kanske för att jag mest vill det men egentligen talar inte mycket för att dem är kvar. Ser ingen strategi i klubben, inga ekonomiska planer man följer. HBK har hamnat rejält efter och är i gungning.
+
+
 
 
 
@@ -77,15 +81,21 @@ Med klubbens ekonomi så är det ett starkt sillyfönster. Faraj kommer göra si
 
 
 
+
+
 15. Öster
 
 Brages legend Kouakou kommer imponera. Lever på små marginaler, fattiga Öster kommer inte orka. Ut ur kvalet. Bubblare: Kommer ha flest röda kort i årets Allsvenska.
 
 
 
+
+
 16. Värnamo
 
 Trötta Värnamo, trötta Värnamo stad. Spelare som inte vill vara där, tappat tunga namn och Abdulrazak är trött och borde redan nu vara trött på Värnamo och Cibicki är bäst i sin skalle men inte på plan. Tack o hej Värnamo.
+
+
 
 Årets skyttekung: Isac Kiese Thelin
 
@@ -114,6 +124,10 @@ Aiks skadelista kommer att vara lång och de kommer behöva sälja det som går 
 Verkligheten kommer ikapp ett helt knippe klubbar där nedanför. 
 
 Kanske att jag borde ha satt Halmstad på nedflyttningsplats nu när huvudsponsorn tar sin hand från dem och de inte har lyckats lösa pappren för Vinicius. 
+
+
+
+
 
 
 
