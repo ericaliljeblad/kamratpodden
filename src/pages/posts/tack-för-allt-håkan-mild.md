@@ -24,7 +24,7 @@ Jag tror inte att det finns en bättre tid att lämna över skutan än nu. Jag t
 
 Allt det där är imponerande på så många sätt, men det som imponerat mest på mig, och troligtvis stora delar av Fotbollssverige är att han stått kvar, orubblig, trotts att vindarna under långa perioder uppnått orkanstyrka och mer därtill. Hot, hat, avgångskrav, men ingenting har fått honom att lämna. Han har gått till jobbet varje dag för att göra IFK lite, lite bättre. Han har gått till matcherna, hört de hårda orden, sett de hånfulla, hatiska banderollerna och skakat av sig det. Han har inte vikt undan för något. Är det enbart en styrka? Kanske inte, men det visade sig vara det bästa för IFK Göteborg.
 
-Om det pratar vi en hel del i [avsnitt två](https://poddtoppen.se/podcast/1633486678/kamratpodden/avsnitt-76-hakan-mild-del-2).
+Om det pratar vi en hel del i [avsnitt två](https://open.spotify.com/episode/6TR55du11V7OHjJ4o47pqS?si=wdX1ti8iRlSB_9EucoxZLQ).
 
 Återigen, tack för allt, Håkan! Jag, och många med mig, kommer att sakna dig. 
 
